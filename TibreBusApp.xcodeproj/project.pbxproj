@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DB38F58282DE38100124BED /* TibreBusAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB38F57282DE38100124BED /* TibreBusAppApp.swift */; };
 		0DB38F5A282DE38100124BED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB38F59282DE38100124BED /* ContentView.swift */; };
 		0DB38F5C282DE38200124BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB38F5B282DE38200124BED /* Assets.xcassets */; };
 		0DB38F5F282DE38200124BED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB38F5E282DE38200124BED /* Preview Assets.xcassets */; };
+		0DB38F6A282E0C0600124BED /* TibreBusAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB38F69282E0C0600124BED /* TibreBusAppApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0DB38F54282DE38100124BED /* TibreBusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TibreBusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DB38F57282DE38100124BED /* TibreBusAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TibreBusAppApp.swift; sourceTree = "<group>"; };
 		0DB38F59282DE38100124BED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0DB38F5B282DE38200124BED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DB38F5E282DE38200124BED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0DB38F69282E0C0600124BED /* TibreBusAppApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TibreBusAppApp.swift; path = ../../../../.Trash/TibreBusAppApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 		0DB38F56282DE38100124BED /* TibreBusApp */ = {
 			isa = PBXGroup;
 			children = (
-				0DB38F57282DE38100124BED /* TibreBusAppApp.swift */,
+				0DB38F69282E0C0600124BED /* TibreBusAppApp.swift */,
 				0DB38F59282DE38100124BED /* ContentView.swift */,
 				0DB38F5B282DE38200124BED /* Assets.xcassets */,
 				0DB38F5D282DE38200124BED /* Preview Content */,
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DB38F5A282DE38100124BED /* ContentView.swift in Sources */,
-				0DB38F58282DE38100124BED /* TibreBusAppApp.swift in Sources */,
+				0DB38F6A282E0C0600124BED /* TibreBusAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
