@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D89020328333D4100BB68C7 /* CdUniversitariaMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D89020228333D4100BB68C7 /* CdUniversitariaMap.swift */; };
 		0DB38F5A282DE38100124BED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB38F59282DE38100124BED /* ContentView.swift */; };
 		0DB38F5C282DE38200124BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB38F5B282DE38200124BED /* Assets.xcassets */; };
 		0DB38F5F282DE38200124BED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB38F5E282DE38200124BED /* Preview Assets.xcassets */; };
 		0DB38F6A282E0C0600124BED /* TibreBusAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB38F69282E0C0600124BED /* TibreBusAppApp.swift */; };
+		0DB81F3B283478A900EB4994 /* AgropecuariasMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB81F3A283478A900EB4994 /* AgropecuariasMap.swift */; };
+		0DB81F3D28347BDD00EB4994 /* MederosMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB81F3C28347BDD00EB4994 /* MederosMap.swift */; };
+		0DB81F4128347C3A00EB4994 /* AreaMedicaMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB81F4028347C3A00EB4994 /* AreaMedicaMap.swift */; };
+		0DB81F43283483E800EB4994 /* DetailedStationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB81F42283483E800EB4994 /* DetailedStationInfo.swift */; };
+		0DF5CF822832FC0400FFD855 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF5CF812832FC0400FFD855 /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D89020228333D4100BB68C7 /* CdUniversitariaMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CdUniversitariaMap.swift; sourceTree = "<group>"; };
 		0DB38F54282DE38100124BED /* TibreBusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TibreBusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB38F59282DE38100124BED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0DB38F5B282DE38200124BED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DB38F5E282DE38200124BED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0DB38F69282E0C0600124BED /* TibreBusAppApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TibreBusAppApp.swift; path = ../../../../.Trash/TibreBusAppApp.swift; sourceTree = "<group>"; };
+		0DB81F3A283478A900EB4994 /* AgropecuariasMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgropecuariasMap.swift; sourceTree = "<group>"; };
+		0DB81F3C28347BDD00EB4994 /* MederosMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MederosMap.swift; sourceTree = "<group>"; };
+		0DB81F4028347C3A00EB4994 /* AreaMedicaMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaMedicaMap.swift; sourceTree = "<group>"; };
+		0DB81F42283483E800EB4994 /* DetailedStationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedStationInfo.swift; sourceTree = "<group>"; };
+		0DF5CF812832FC0400FFD855 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +63,16 @@
 		0DB38F56282DE38100124BED /* TibreBusApp */ = {
 			isa = PBXGroup;
 			children = (
+				0DB81F3A283478A900EB4994 /* AgropecuariasMap.swift */,
 				0DB38F69282E0C0600124BED /* TibreBusAppApp.swift */,
 				0DB38F59282DE38100124BED /* ContentView.swift */,
 				0DB38F5B282DE38200124BED /* Assets.xcassets */,
 				0DB38F5D282DE38200124BED /* Preview Content */,
+				0DF5CF812832FC0400FFD855 /* Menu.swift */,
+				0D89020228333D4100BB68C7 /* CdUniversitariaMap.swift */,
+				0DB81F3C28347BDD00EB4994 /* MederosMap.swift */,
+				0DB81F4028347C3A00EB4994 /* AreaMedicaMap.swift */,
+				0DB81F42283483E800EB4994 /* DetailedStationInfo.swift */,
 			);
 			path = TibreBusApp;
 			sourceTree = "<group>";
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DF5CF822832FC0400FFD855 /* Menu.swift in Sources */,
+				0DB81F3B283478A900EB4994 /* AgropecuariasMap.swift in Sources */,
+				0DB81F4128347C3A00EB4994 /* AreaMedicaMap.swift in Sources */,
+				0DB81F3D28347BDD00EB4994 /* MederosMap.swift in Sources */,
 				0DB38F5A282DE38100124BED /* ContentView.swift in Sources */,
+				0D89020328333D4100BB68C7 /* CdUniversitariaMap.swift in Sources */,
+				0DB81F43283483E800EB4994 /* DetailedStationInfo.swift in Sources */,
 				0DB38F6A282E0C0600124BED /* TibreBusAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

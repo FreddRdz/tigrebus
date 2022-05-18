@@ -57,7 +57,7 @@ struct ContentView: View {
                     .cornerRadius(10)
                     
                     // en caso que la variables showingLoginScreen sea false, no irá a esa interfaz, caso contrario si la variable sea true
-                    NavigationLink(destination: Text("Estás en la pantalla inicial"), isActive: $showingLoginScreen) {
+                    NavigationLink(destination: Menu(), isActive: $showingLoginScreen) {
                         EmptyView()
                     }
                         
